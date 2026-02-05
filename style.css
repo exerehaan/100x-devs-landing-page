@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div p{
+    margin: 20px;
+    font-size: large;
+    ;
+}
+nav div button{
+    width: 70px; height: 35px;
+    border:1px solid gray;
+
+    border-radius: 5px;
+}
