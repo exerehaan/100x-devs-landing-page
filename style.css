@@ -9,15 +9,39 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+   
 }
+.nav-divider {
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+    margin: 0; /* Removes default spacing */
+  }
 nav div p{
     margin: 20px;
     font-size: large;
-    ;
+    color: lab(11.0101% 14.3499 -42.1491);
+    font-family: Poppins, Poppins Fallback;
+    
 }
 nav div button{
-    width: 70px; height: 35px;
+    width: 100px; height: 35px;
     border:1px solid gray;
 
-    border-radius: 5px;
+    border-radius: 10px;
 }
+.searchbar{
+    outline: none;  /* reomves default blue line*/
+    width: 220px; height: 35px; border: 1px solid rgb(186, 186, 186); border-radius: 10px; text-align:left;
+    transition: box-shadow 0.3s ease;
+}
+/* .searchbar:focus-within {
+    border-color: #3b82f6; /* Optional: change border color */
+    /* box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1); Soft glow */
+/* }  */
+.searchbar:hover{
+    outline: black;
+    background-color: white;
+    box-shadow: 0 0 2px 2px rgb(144, 144, 144);
+    color: white;
+    color: black;
+}  
