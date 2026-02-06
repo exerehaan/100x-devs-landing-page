@@ -47,7 +47,7 @@ nav div button{
 }  
 
 .first{
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 500px;
     display: flex;
     justify-content: space-evenly;
@@ -55,7 +55,7 @@ nav div button{
 }
 .left{
     box-sizing: border-box;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 500px;
     height: 400px;
   
@@ -63,8 +63,13 @@ nav div button{
 .first .left h1{
     padding: 10px;
     font-size: 60px;
+    color: lab(11.0101% 14.3499 -42.1491);
 }
 
 .first div img{
     width: 500px;
+}
+.left div{
+    display: flex;
+    padding: 10px;
 }
