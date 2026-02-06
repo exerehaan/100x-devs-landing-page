@@ -48,19 +48,22 @@ nav div button{
 
 .first{
     /* background-color: bisque; */
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 .left{
+    margin-top: 100px;
     box-sizing: border-box;
     /* background-color: yellow; */
-    width: 500px;
+    width: 600px;
     height: 400px;
   
 }
 .first .left h1{
+    font-family: 'Inter', sans-serif;
     padding: 10px;
     font-size: 60px;
     color: lab(11.0101% 14.3499 -42.1491);
@@ -68,8 +71,22 @@ nav div button{
 
 .first div img{
     width: 500px;
+  
 }
 .left div{
     display: flex;
     padding: 10px;
+}
+
+.log{
+    width: 100px;
+    height: 45px;
+    background-color: white; /* Move it here! */
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* This makes the hover look smooth */
+}
+.log:hover{
+    background-color: rgb(196, 191, 191);
 }
