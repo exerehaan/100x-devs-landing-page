@@ -45,3 +45,24 @@ nav div button{
     color: white;
     color: black;
 }  
+
+.first{
+    background-color: bisque;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left{
+    box-sizing: border-box;
+    background-color: yellow;
+    width: 500px;
+    height: 300px;
+  
+}
+.first .left h1{
+    font-size: xx-large;
+}
+.first div img{
+    width: 500px;
+}
