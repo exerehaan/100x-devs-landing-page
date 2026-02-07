@@ -104,7 +104,7 @@ nav div button{
     justify-content: space-evenly;
     align-items: center;
 }
-#text-head{
+.text-head{
     font-size: 50px;
 }
 .partition{
@@ -113,4 +113,19 @@ nav div button{
   background-color: white;  
   /* opacity: 0.2;             Making it semi-transparent makes it look thinner */
   align-self: center;
+}
+.second i{
+    display: inline-flex;      /* Important! */
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  margin-right: 16px;
+}
+.second i svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2;
 }

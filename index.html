@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <nav>
@@ -38,13 +39,28 @@
     </section>
     <section class="second">
         <div class = "box1">
-            <p><span id = "text-head">27</span></span27><br>Students Cracked GSoC 2025</p>
+            <p>
+                <i data-lucide="user"></i>
+                <span class = "text-head">27</span><br>
+                Students Cracked GSoC 2025
+            </p>
             <!-- for partition use empty div or p -->
             <p  class = "partition"></p>
-            <p><span id = "text-head">$150K</span><br>Highest International package</p>
+
+            <p><i data-lucide="trophy"></i>
+                <span class = "text-head">$150K</span><br>
+                Highest International package
+            </p>
             <p class = "partition"></p>
-            <p><span id = "text-head">200+</span><br>High paying internships confirmed</p>
+
+            <p><i data-lucide="briefcase"></i>
+                <span class = "text-head">200+</span><br>
+                High paying internships confirmed
+            </p>
         </div>
     </section>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html> 
