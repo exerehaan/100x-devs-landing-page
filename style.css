@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Inter', sans-serif ;
-    
+    font-family:'Inter', sans-serif ;  
 }
 
 nav{
@@ -21,7 +20,7 @@ nav div p{
     margin: 20px;
     font-size: large;
     color: lab(11.0101% 14.3499 -42.1491);
-    font-family: Poppins, Poppins Fallback;
+    /* font-family: Poppins, Poppins Fallback; */
     
 }
 nav div button{
@@ -114,18 +113,45 @@ nav div button{
   /* opacity: 0.2;             Making it semi-transparent makes it look thinner */
   align-self: center;
 }
-.second i{
+/* .second .lucide{
     display: inline-flex;      /* Important! */
-  align-items: center;
+  /* align-items: center;
   justify-content: center;
   width: 56px;
   height: 56px;
   background-color: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
-  margin-right: 16px;
-}
-.second i svg {
+  margin-right: 16px; */
+/* } */ 
+/* .second i svg {
     width: 28px;
     height: 28px;
     stroke-width: 2;
-}
+} */
+.icon-bg {
+    width: 48px;
+    height: 48px;
+    background-color: #8B8FCB;
+    /* border-radius: 10px; */
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+.box1 .lucide {
+    width: 36px;
+    height: 36px;
+    stroke: black;
+    /* in case of images teh image outline color is determined by stroke and width by stroke-width */
+    /* color: black; */
+  }
+  .stat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
