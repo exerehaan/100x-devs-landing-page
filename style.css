@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Inter', sans-serif ;
     
 }
 
@@ -89,4 +90,27 @@ nav div button{
 }
 .log:hover{
     background-color: rgb(196, 191, 191);
+}
+.box1{
+    box-sizing: border-box;
+    color: white;
+    background-color:lab(11.0101% 14.3499 -42.1491);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 15px;
+    border-top-right-radius: 350px;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#text-head{
+    font-size: 50px;
+}
+.partition{
+    width: 3px;               /* Thickness of the line */
+  height: 100px;             /* Control how tall the line is */
+  background-color: white;  
+  /* opacity: 0.2;             Making it semi-transparent makes it look thinner */
+  align-self: center;
 }
