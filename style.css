@@ -168,16 +168,23 @@ nav div button{
     box-sizing: border-box;
     background-color: lab(61.2815% -53.312 -.356901);
     width: 70%;
-    height: 200px ;
+    height: 250px ;
     margin-left: 100px;
     margin-right: 50px;
     padding: 40px;
+    color: white;
+    border-radius: 13px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
   }
   .rightbox{
     box-sizing: border-box;
     background-color: lab(5.87349% 11.8811 -39.5785);
     color: white;
-    height: 200px;
+    height: 250px;
     margin-right: 100px;
     padding: 40px;
+    border-radius: 13px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
   }
