@@ -337,4 +337,76 @@ nav div button{
 .card p{
   font-family:'Inter', sans-serif  ;
   color:lab(35.6337% -1.58697 -10.8425) ;
+  
+}
+.fifth{
+  height: 1000px;
+  /* margin: 50px; */
+  background-color:  lab(5.87349% 11.8811 -39.5785);
+}
+.fifth h2{
+
+  color: white;
+  margin: 50px;
+  margin-top: 50px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  background-color: yellow;
+
+}
+.card-sect{
+ padding: 20px;
+  margin: 50px;
+  background-color: wheat;
+  width: 360px;
+  height: 500px;
+  border-radius: 25px;
+  
+}
+.card-sect img{
+  box-sizing: border-box;
+  /* padding: 10px; */
+  height: auto;
+  width: inherit;
+  border-radius: 25px;
+}
+.card-sect h3{
+  margin-top: 15px;
+  font-size: 20px;
+  color:lab(5.87349% 11.8811 -39.5785) ;
+}
+.card-sect p{
+  color:lab(35.6337% -1.58697 -10.8425) ;
+  margin-top: 25px;
+}
+.card-sect div{
+  box-sizing: border-box;
+  background-color: cyan;
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  align-items: center;
+}
+.card-sect form{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  
+}
+#dropdown{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid lab(66.128% -.0000298023 .0000119209);
+}
+.card-sect form button{
+  margin-top: 5px;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: lab(5.87349% 11.8811 -39.5785);
 }
