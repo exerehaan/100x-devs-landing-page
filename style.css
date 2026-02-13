@@ -246,7 +246,7 @@ nav div button{
     flex-direction: column;
     justify-content: start;
     height: 600px;
-    background-color: lab(85.3% 0.19 -0.5);
+    background-color: lab(90.952% 0 -.0000119209);
   }
 .topsection{
     margin-top: 80px;
@@ -285,10 +285,10 @@ nav div button{
   .carousel::scroll-button(right),.carousel::scroll-button(left){
     content : '>';
     border: none;
-    font-size: 3rem;
-    background-color: lab(5.87349% 11.8811 -39.5785);
-    height: 60px;
-    width: 60px;
+    font-size: 2rem;
+    background-color: lab(36.0966% -1.55815 -10.853);
+    height: 50px;
+    width: 50px;
     color: white;
     border-radius: 50%;
     cursor: pointer;
