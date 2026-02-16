@@ -420,16 +420,23 @@ nav div button{
   background-color: lab(5.87349% 11.8811 -39.5785);
 }
 .sixth{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
   height: 600px;
-  background-color: rgb(196, 191, 191);
+  background-color: rgb(227, 226, 226);
 }
 .inner{
-  /* margin: 10px; */
-  height: 400px;
+  margin: 80px;
+  /* height: 400px; */
+  /* gap: 10px; */
   background: linear-gradient(
   to bottom,
   #149B8F 0%,
   #117C86 40%,
   #0B3A6E 100%
 );
+border-radius: 40px;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
 }
